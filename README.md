@@ -132,6 +132,11 @@ python -m ruff check app scripts
 - [Modules](docs/MODULES.md) - Module boundaries and environment variables
 - [Deployment](docs/DEPLOYMENT.md) - Deployment guide
 - [Changelog](docs/CHANGELOG.md) - Version history
+- [Project History](docs/PROJECT_HISTORY.md) - How the project evolved over 210 commits
+- [Technical Evolution](docs/TECHNICAL_EVOLUTION.md) - Key commits and architectural decisions
+- [Observation System](docs/OBSERVATION_SYSTEM.md) - Real-time status snapshots and presence monitoring
+- [Reading Order](docs/READING_ORDER.md) - Recommended reading order for new contributors
+- [Stability Checklist](docs/STABILITY_CHECKLIST.md) - Daily ops, smoke tests, and stability checks
 
 ## License
 

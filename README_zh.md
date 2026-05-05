@@ -132,6 +132,11 @@ python -m ruff check app scripts
 - [模块说明](docs/MODULES.md) - 模块边界与环境变量
 - [部署指南](docs/DEPLOYMENT.md) - 部署流程
 - [更新日志](docs/CHANGELOG.md) - 版本历史
+- [项目成长史](docs/PROJECT_HISTORY.md) - 从 210 次提交看项目演化
+- [技术演化复盘](docs/TECHNICAL_EVOLUTION.md) - 关键提交与架构决策
+- [观察系统](docs/OBSERVATION_SYSTEM.md) - 实时状态快照与在线监测
+- [阅读顺序](docs/READING_ORDER.md) - 新贡献者推荐阅读顺序
+- [稳定性清单](docs/STABILITY_CHECKLIST.md) - 日常巡检、冒烟测试与稳定性检查
 
 ## 许可证
 

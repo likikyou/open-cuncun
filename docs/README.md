@@ -132,7 +132,7 @@ app/presentation/*              # 事件解析、卡片 JSON、格式化
 ### 1. 安装依赖
 
 ```bash
-cd /home/deploy/feishu-ai-companion
+cd open-cuncun
 python3 -m uv sync --extra dev
 ```
 
