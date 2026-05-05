@@ -16,6 +16,16 @@ An AI companion chatbot running on Feishu (Lark), the Chinese enterprise messagi
 - **Scheduled Tasks**: Morning/night reminders, database backup, memory maintenance
 - **Observation System**: Real-time status snapshots and presence monitoring
 
+## Screenshots
+
+| Chat Demo | Morning Weather Reminder |
+|:---:|:---:|
+| ![Chat](docs/images/chat-demo.jpg) | ![Morning](docs/images/morning-weather-reminder.jpg) |
+
+| Evening Weather Reminder | Brush Teeth Reminder |
+|:---:|:---:|
+| ![Evening](docs/images/evening-weather-reminder.jpg) | ![Brush](docs/images/brush-teeth-reminder.jpg) |
+
 ## Quick Start
 
 ### Prerequisites

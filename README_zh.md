@@ -16,6 +16,16 @@
 - **定时任务**：早晚问候、数据库备份、记忆维护
 - **观察系统**：实时状态快照与在线监测
 
+## 效果展示
+
+| 日常聊天 | 早间天气提醒 |
+|:---:|:---:|
+| ![聊天](docs/images/chat-demo.jpg) | ![早间](docs/images/morning-weather-reminder.jpg) |
+
+| 晚间天气提醒 | 刷牙提醒 |
+|:---:|:---:|
+| ![晚间](docs/images/evening-weather-reminder.jpg) | ![刷牙](docs/images/brush-teeth-reminder.jpg) |
+
 ## 快速开始
 
 ### 前置条件
