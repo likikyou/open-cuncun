@@ -26,8 +26,8 @@ A private AI companion chatbot running on Feishu (Lark), the Chinese enterprise 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/feishu-ai-companion.git
-   cd feishu-ai-companion
+   git clone https://github.com/likikyou/open-cuncun.git
+   cd open-cuncun
    ```
 
 2. Install dependencies:

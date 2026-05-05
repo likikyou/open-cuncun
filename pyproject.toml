@@ -3,9 +3,9 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "feishu-ai-companion"
+name = "open-cuncun"
 version = "5.7.1"
-description = "Private Feishu chatbot companion with memory, retrieval, and voice reply workflows."
+description = "Feishu (Lark) AI companion chatbot with memory, retrieval, and voice reply workflows."
 requires-python = ">=3.10,<3.13"
 dependencies = [
   "aiohappyeyeballs==2.6.1",
