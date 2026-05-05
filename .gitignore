@@ -1,0 +1,85 @@
+# === 敏感文件 ===
+.env
+.env.*
+!.env.example
+client_secrets.json
+token.json
+credentials.json
+*.pem
+*.key
+
+# === 数据与备份 ===
+backups/
+data/voice/
+data/db/
+data/db_local/
+data/voice_local/
+data/cache/
+*.db
+*.sqlite3
+*.pickle
+*.bin
+
+# === 音频资产 ===
+音频数据/
+*.opus
+*.mp3
+*.wav
+*.m4a
+
+# === 图片 ===
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.bmp
+
+# === 视频 ===
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# === 测试文件 ===
+test_*.py
+*_test.py
+!scripts/test_*.py
+
+# === 日志与缓存 ===
+logs/
+*.log
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.pyre/
+.pyright/
+.ruff_cache/
+
+# === 编辑器与系统 ===
+.conda/
+.trae/
+.vscode/
+.idea/
+.claude/
+.prompts/
+.DS_Store
+Thumbs.db
+
+# === 临时与环境 ===
+5a5c27fd-*/
+venv/
+.venv/
+*.tmp
+*.temp
+
+# === 旧版模型备份 ===
+*weights_v2Pro备份/
+*.pth
+*.ckpt
+# === 本地向量库数据 (不提交) ===
+data/db_local/
+data/voice_local/
