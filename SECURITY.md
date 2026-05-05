@@ -12,7 +12,7 @@
 If you discover a security vulnerability in this project, please report it responsibly:
 
 1. **Do NOT** open a public GitHub issue for security vulnerabilities
-2. Email security concerns to: [your-email@example.com]
+2. Email security concerns to: likikyou999@gmail.com
 3. Include a detailed description of the vulnerability
 4. Provide steps to reproduce if possible
 
