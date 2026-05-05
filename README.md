@@ -1,6 +1,8 @@
 # Feishu AI Companion
 
-A private AI companion chatbot running on Feishu (Lark), the Chinese enterprise messaging platform.
+English | [中文](README_zh.md)
+
+An AI companion chatbot running on Feishu (Lark), the Chinese enterprise messaging platform.
 
 ## Features
 
