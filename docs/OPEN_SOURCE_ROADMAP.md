@@ -1,13 +1,26 @@
 # Open-source scope and roadmap
 
-> Last updated: 2026-08-13
+> Last updated: 2026-08-21
 
 `open-cuncun` is the canonical public source for Cuncun Core: a self-hosted,
 Feishu-first AI companion runtime. It is not a mirror of a downstream
 deployment. Generic runtime improvements should be designed here first,
 released with a tag, and then consumed by downstream deployments.
 
-## Repository map
+## Current repository roles
+
+| Repository | Role | Development policy |
+|:---|:---|:---|
+| `likikyou/open-cuncun` | Public Cuncun Core upstream | Develop reusable, general-purpose capabilities here first |
+| Private Cuncun Pro repository | Active private downstream | Keep personas, private data, and deployment-specific Console, voice, and device integrations private |
+| `likikyou/open-cuncun-private-archive` | Read-only historical archive | Preserve historical records only; no further development |
+
+These repositories are not bidirectional mirrors. Private Cuncun Pro follows
+only the shared, general-purpose Core released by the public upstream; it does
+not synchronize its entire tree back to `open-cuncun`. Server checkout paths
+are operational metadata and are not published.
+
+## Planned public repository map
 
 The project is intentionally split into three focused repositories, with one
 optional product kept separate until its design is mature:
