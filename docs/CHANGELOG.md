@@ -18,8 +18,9 @@
   传递依赖被逐个升级时产生无法解析的机器人 PR；常规 Actions 更新保持开启。
 - 升级 `aiohttp / cryptography / fastembed / httplib2 / kubernetes / orjson /
   protobuf / pyasn1 / urllib3` 到已修复 GitHub High advisories 且可共同解析的
-  版本，并刷新 `uv.lock` 中的 Pillow；FastEmbed 显式保持 CPU provider，避免
-  新版本自动探测 CUDA 后改变既有部署行为。
+  版本，并同步升级 `filelock / Flask / idna / Pygments / python-dotenv / pytest /
+  requests / Werkzeug`，刷新 `uv.lock` 中的 Pillow；FastEmbed 显式保持 CPU
+  provider，避免新版本自动探测 CUDA 后改变既有部署行为。
 - `SECURITY.md` 明确记录 ChromaDB `CVE-2026-45829`：Core 只使用本地
   `PersistentClient`，不得启动或暴露受影响的 Chroma HTTP 服务；上游提供修复
   或兼容迁移路径后再升级或替换。
