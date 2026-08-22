@@ -84,17 +84,17 @@ ADMIN_OPEN_ID=your_open_id
 
 ### Embedded ChromaDB advisory
 
-As of 2026-08-22, ChromaDB 1.x is affected by `CVE-2026-45829` /
-`GHSA-f4j7-r4q5-qw2c`, a pre-authentication code-injection vulnerability in the
-Chroma HTTP server's collection-creation endpoint. Upstream has not published a
-patched Python package.
+As of 2026-08-22, ChromaDB 1.0.0 through 1.5.9 is affected by
+[`CVE-2026-45829` / `GHSA-f4j7-r4q5-qw2c`](https://github.com/advisories/GHSA-f4j7-r4q5-qw2c),
+a pre-authentication code-injection vulnerability in the Chroma HTTP server's
+collection-creation endpoint. Upstream has not published a patched Python package.
 
 Cuncun Core instantiates `chromadb.PersistentClient` against a local filesystem path;
-it does not start or expose the Chroma HTTP server. Operators must not run `chroma run`,
-publish the Chroma API or its port, or point untrusted clients at the embedded database.
-This deployment boundary substantially reduces exposure but does not remove the
-vulnerable package code. The project will upgrade or replace the dependency when a
-verified upstream fix or compatible migration path is available.
+the supported deployment does not start or expose a Chroma HTTP endpoint. Operators
+must not run `chroma run` or publish the Chroma API or its port. This deployment
+boundary substantially reduces exposure but does not remove the vulnerable package
+code. The project will upgrade or replace the dependency when a verified upstream fix
+or compatible migration path is available.
 
 ## Updates
 
