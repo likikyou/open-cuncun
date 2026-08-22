@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and setup help
+    url: https://github.com/likikyou/open-cuncun/discussions
+    about: Ask the community about setup, deployment, and usage.
+  - name: Security vulnerability
+    url: https://github.com/likikyou/open-cuncun/security/policy
+    about: Read the private security reporting instructions before disclosing a vulnerability.

@@ -1,0 +1,75 @@
+name: Bug report
+description: Report a reproducible problem in Cuncun Core
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Cuncun Core. Remove API keys, private prompts,
+        user messages, open IDs, and other personal data before submitting.
+
+  - type: checkboxes
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing Issues for the same problem.
+          required: true
+        - label: This is not a security vulnerability or private-data report.
+          required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Cuncun Core version
+      description: Provide a release tag or commit SHA.
+      placeholder: v5.8.0-rc.1 or 5824398
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include OS, Python version, installation method, and relevant provider.
+      placeholder: |
+        OS: Ubuntu 24.04
+        Python: 3.12
+        Install: uv
+        Provider: Cerebras
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem description
+      description: What happened, and what did you expect instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Configure ...
+        2. Run ...
+        3. Send ...
+        4. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized logs or traceback
+      description: Remove all credentials, identifiers, messages, prompts, and personal data.
+      render: shell
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Add screenshots, configuration names, or other useful details after sanitizing them.

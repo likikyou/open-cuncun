@@ -1,0 +1,70 @@
+name: Feature request
+description: Propose a reusable improvement to Cuncun Core
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Cuncun Core accepts general-purpose runtime improvements. Private personas,
+        deployment-specific behavior, and unlicensed assets remain outside this repository.
+
+  - type: checkboxes
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing Issues and the open-source roadmap.
+          required: true
+        - label: This proposal is reusable and does not require private data or owned assets.
+          required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: Who needs this, and what are they unable to do today?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the smallest useful behavior and its expected outcome.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Describe existing workarounds or designs you considered.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Conversation and context
+        - Memory and retrieval
+        - AI provider integration
+        - Feishu/Lark integration
+        - Scheduling and automation
+        - Observability and operations
+        - Documentation and onboarding
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: contribution
+    attributes:
+      label: Contribution
+      description: Would you be interested in helping implement this proposal?
+      options:
+        - Yes, with maintainer guidance
+        - Yes, independently
+        - Not currently
+    validations:
+      required: true
