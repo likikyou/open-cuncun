@@ -14,6 +14,8 @@
   Dependabot 配置，补齐公开贡献与依赖维护入口。
 - GitHub Actions 升级到基于 Node 24 的 `checkout v7` 与 `setup-python v7`，
   并继续固定完整 commit SHA，消除 Node 20 退役告警。
+- Python 依赖在直接依赖与传递依赖拆分前只启用分组安全更新，避免精确固定的
+  传递依赖被逐个升级时产生无法解析的机器人 PR；常规 Actions 更新保持开启。
 
 ## V5.8.0-rc.1 (2026-08-13)
 

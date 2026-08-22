@@ -7,7 +7,15 @@ updates:
       day: monday
       time: "06:00"
       timezone: Etc/UTC
-    open-pull-requests-limit: 5
+    # requirements.txt currently pins direct and transitive packages together.
+    # Pause routine version PRs until those declarations are separated; keep
+    # vulnerability alerts and grouped security updates active.
+    open-pull-requests-limit: 0
+    groups:
+      python-security-updates:
+        applies-to: security-updates
+        patterns:
+          - "*"
 
   - package-ecosystem: github-actions
     directory: /
