@@ -139,7 +139,7 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
   "ruff>=0.11.13,<0.12",
-  "pytest>=8,<9",
+  "pytest>=8,<10",
 ]
 server = [
   "gunicorn>=23,<24",
