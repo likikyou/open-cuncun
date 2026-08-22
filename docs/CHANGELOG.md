@@ -12,6 +12,8 @@
   已配置密钥。
 - 新增行为准则、支持说明、结构化 Bug/Feature Issue Forms、PR 模板和
   Dependabot 配置，补齐公开贡献与依赖维护入口。
+- GitHub Actions 升级到基于 Node 24 的 `checkout v7` 与 `setup-python v7`，
+  并继续固定完整 commit SHA，消除 Node 20 退役告警。
 
 ## V5.8.0-rc.1 (2026-08-13)
 
