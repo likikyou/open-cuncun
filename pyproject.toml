@@ -87,7 +87,7 @@ dependencies = [
   "proto-plus==1.27.0",
   "protobuf==6.33.2",
   "psutil==5.9.8",
-  "pyasn1==0.6.1",
+  "pyasn1==0.6.4",
   "pyasn1_modules==0.4.2",
   "pybase64==1.4.3",
   "pycparser==2.23",
