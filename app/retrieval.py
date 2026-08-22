@@ -34,7 +34,10 @@ def get_embedding_model():
                 "⏳ FastEmbed 首次调用采用懒加载；若本机无缓存，将从 ~/.cache/fastembed 下载模型"
                 " (约 100MB)，并阻塞当前这一次检索/语音匹配请求"
             )
-            _embedding_model = TextEmbedding(model_name="BAAI/bge-small-zh-v1.5")
+            _embedding_model = TextEmbedding(
+                model_name="BAAI/bge-small-zh-v1.5",
+                providers=["CPUExecutionProvider"],
+            )
             logger.info(
                 "✅ 本地向量化引擎 (FastEmbed: BGE-small) 初始化成功，后续请求将复用本地缓存"
             )
