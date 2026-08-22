@@ -99,7 +99,7 @@ dependencies = [
   "PyPika==0.48.9",
   "pyproject_hooks==1.2.0",
   "python-dateutil==2.9.0.post0",
-  "python-dotenv==1.2.1",
+  "python-dotenv==1.2.2",
   "python-json-logger==4.0.0",
   "PyYAML==6.0.3",
   "referencing==0.37.0",
